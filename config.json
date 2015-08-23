@@ -1,9 +1,9 @@
 {
   "locals": {
-    "url": "http://localhost:8080",
-    "name": "The Wintersmith's blog",
-    "owner": "Someone",
-    "description": "Ramblings of an immor(t)al demigod"
+    "url": "http://bradleybossard.com",
+    "name": "bradleybossard",
+    "owner": "Bradley Bossard",
+    "description": "Trying to stay above water in the tech flood"
   },
   "plugins": [
     "./plugins/paginator.coffee"
