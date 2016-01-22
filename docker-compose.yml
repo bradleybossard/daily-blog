@@ -2,9 +2,5 @@ daily-blog:
   build : .
   ports:
     - "8086:8080"
-  volumes:
-    - ".:/src"
   environment:
-    - VIRTUAL_HOST=daily-blog.goliath.bradleybossard.com
-
-# docker run -it --rm -v $PWD:/src --name daily-blog -p 8086:8080 -e bradleybossard/docker-node-tools
+    - VIRTUAL_HOST=daily-blog.bradleybossard.com

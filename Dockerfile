@@ -8,6 +8,7 @@ RUN apt-get install -y nodejs
 
 RUN npm install --global wintersmith
 
+WORKDIR /src
 ADD package.json /src/package.json
 RUN npm install
 
