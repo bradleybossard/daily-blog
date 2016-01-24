@@ -4,3 +4,5 @@ daily-blog:
     - "8086:8080"
   environment:
     - VIRTUAL_HOST=daily-blog.bradleybossard.com
+    - LETSENCRYPT_HOST=daily-blog.bradleybossard.com
+    - LETSENCRYPT_EMAIL=bradleybossard@gmail.com
